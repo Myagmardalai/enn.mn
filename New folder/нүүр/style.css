@@ -1,0 +1,178 @@
+body {
+    background-color: rgba(0, 38, 255, 0.557);    ;
+    color: white;
+    overflow: hidden; /* Ð”Ð¾Ð¾Ñˆ Ð³Ò¯Ð¹Ð»Ð³ÑÑ…Ð¸Ð¹Ð³ Ñ…Ð°Ð°Ð½Ð° */
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 10px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 30px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left:   100px;
+    display: flex;
+}
+
+.navbar a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    margin-right: 30px;
+}
+
+.navbar a:hover,
+.navbar .home {
+    color: aqua;
+}
+
+.nuur {
+    position: relative;
+    top: 0;
+    left: 0;
+    align-items: center;
+    padding: 100 4%;
+    top: 30;
+}
+
+.nuurniibichig {
+    max-width: 700px;
+    height: 550;
+    }
+
+.nuurniibichig h1 {
+    height: 30;
+    font-size: 45px;
+    font-weight: 550;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.nuurniibichig p {
+    font-size: 24px;
+    text-align: justify;
+}
+
+.btn-box{
+    position: absolute;
+    left: 50px;
+    bottom: 235px;
+    width: 170px;
+    justify-content: space-between;
+
+}
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.btn-box a:hover {
+    color: #ededed;
+}
+
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: blueviolet;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.btn-box a:hover::before {
+    width: 100%;
+}
+
+.home-sci {
+    position: absolute;
+    left: 270px;
+    bottom: 240px;
+    width: 170px;
+    justify-content: space-between;
+}
+
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid blueviolet;
+    border-radius: 50%;
+    font-size: 20px;
+    color: blueviolet;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.home-sci a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.home-sci a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 600%;
+    background: blueviolet;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.home-sci a:hover::before {
+    width: 100%;
+}
+
+.zurag {
+    position: absolute;
+    left: 800px;
+    height: 0;
+    top: 70;
+    display: flex;
+}
+
+.zurag2 {
+    position: absolute;
+    left: -10px;
+    height: 60;
+    top: 70;
+    display: flex;
+}

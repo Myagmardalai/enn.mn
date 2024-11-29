@@ -1,0 +1,271 @@
+body {
+    background-color: rgba(0, 38, 255, 0.555);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:5px 10px;
+    background-color: blueviolet;
+    display:flex;  
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 30px;
+    height: 30;
+    color: #ededed;
+    text-decoration: none;
+    position: absolute;
+    left:   100px;
+    display: flex;
+}
+
+
+
+.navbar a {
+    font-size: 30px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 800;
+    margin-right: 30px;
+
+}
+
+.navbar a:hover,
+.navbar .home {
+    color: aqua;
+}
+
+
+
+.logo {
+    font-size: 30px;
+    height: 30;
+    color: #ededed;
+    text-decoration: none;
+}
+
+body {
+    color: white;
+}
+
+.nuur {
+    align-items: center;
+    padding-top: 80px;
+    padding-right: 500px;
+    padding-bottom: 60px;
+    padding-left: 50px;}
+
+.nuurniibichig {
+    max-width: 700;
+    
+}
+
+.nuurniibichig h1 {
+    font-size: 50px;
+    font-weight: 550;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.nuurniibichig p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.zurag {
+    position: absolute;
+    right: 15;
+    top: 140;    
+}
+
+
+.nuur2 {
+    position: relative;
+    width: 1270px;
+    height: 500px;
+    align-items: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+}
+
+.nuurniibichig2 {
+    max-width: 700;
+}
+.nuurniibichig2 h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.nuurniibichig2 p1 {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 110px;
+    right: 540;
+    width: 150px;
+    height: 10px;
+}
+
+.nuurniibichig2 p2 {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 130px;
+    right: 540;
+    width: 150px;
+    height: 10px;
+}
+
+.nuurniibichig2 p3 {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 150px;
+    right: 490;
+    width: 200px;
+    height: 10px;
+}
+
+.nuurniibichig2 p4 {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 200px;
+    right: 490;
+    width: 200px;
+    height: 10px;
+}
+
+.nuurniibichig2 p5 {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 220px;
+    right: 490;
+    width: 200px;
+    height: 10px;
+}
+
+.nuurniibichig2 p6 {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 240px;
+    right: 290;
+    width: 400px;
+    height: 10px;
+}
+
+.nuurniibichig2 p7 {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 290px;
+    right: 290;
+    width: 400px;
+    height: 10px;
+}
+
+.nuurniibichig2 p8 {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 310px;
+    right: 290;
+    width: 400px;
+    height: 10px;
+}
+
+.nuurniibichig2 p9 {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 330px;
+    right: 290;
+    width: 400px;
+    height: 10px;
+}
+
+.nuurniibichig2 p10 {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 400px;
+    right: 190;
+    width: 500px;
+    height: 10px;
+}
+
+
+.zurag2 {
+    position: absolute;
+    left: 50;
+    top: 90;    
+}
+
+.nuur3 {
+    font-size: 25;
+    position: absolute;
+    left: 60;
+    top: 1200
+}
+
+.nuurniizurag3 {
+    display: flex;
+}
+
+.zurag5 {
+    padding-top: 1000px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+}
+
